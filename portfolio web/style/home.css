@@ -1,0 +1,164 @@
+
+/* Hero  section styles */
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 700px;
+    align-items: center;
+}
+.hero-left{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.p1{
+    color: #5570F8;
+    font-weight: bold;
+}
+
+.p1 i {
+    background-color: #E0E7FF;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;}
+    
+.hero-left h1{
+    font-size: 50;
+    font-weight: bold;
+}
+.hero-left h2{
+    color: slategray;
+font-size: 25px;
+}
+.hero-left h2 span{
+    color: black;
+}
+
+.p2{
+    color: darkgray;
+}
+.hero-action{
+    display: flex;
+    gap: 20px;
+}
+.points{
+    display: flex;
+    gap: 20px;
+}
+
+.points span i {
+    margin-right: 10px;
+    color: #5570F8;}
+    
+.points span{
+    background-color: lightgray;
+    width: 120px;
+    padding: 10px 10px;
+border-radius: 20px;
+border: 1px solid white;
+font-size: 15px;
+font-weight: 500px;
+color: rgb(46,46,46);
+}
+.hero-right{
+    width: 500px;
+    border: 1px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #Fafbff;
+}
+.hero-image img{
+    width: 100%;
+    border: 3px solid #5570F8;
+    border-radius: 20px;
+    background-color: white;
+}
+.about{
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+
+.about span i {
+    margin-right: 10px;
+}
+
+.focus{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.focus div {
+    width: 65%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.focus div span {
+    padding:  10px 20px;
+    background-color: gray;
+    border-radius: 5px;
+}
+/* skill section styles*/
+.skill-container h2{
+    text-align: center;
+margin-bottom: 40px;
+font-size: 50px;
+}
+.skill-section{
+    padding: 40px 0;
+}
+.box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-container i {
+    font-size: 26px;
+}
+
+.box-container div{
+    width: 260px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+padding: 3px;
+border: 1px solid darkgray;
+border-radius: 15px;
+gap: 12px;
+}
+.box-container div:hover{
+    transform: scale(1.07);
+    box-shadow: 0px 10px  20px blue;
+    border-color: gray;
+}
+
+.box-container div span{
+    padding:  10px 15px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+.box-container div h3{
+    font-size: 17px;
+}
+
+.box-container div p{
+    text-align: center;
+    line-height: 1.5;
+}
